@@ -1,7 +1,7 @@
 [project]
 name = "mcp-server-webhooker"
-version = "0.1.0"
-description = "Add your description here"
+version = "1.0.0"
+description = "Model Context Protocol (MCP) server that enables sending messages to various webhook services including Discord and Google Chat."
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
