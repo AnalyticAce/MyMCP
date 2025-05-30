@@ -1,0 +1,11 @@
+[project]
+name = "mcp-server-websearch"
+version = "0.1.0"
+description = "A web search server for MCP
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastmcp>=2.5.1",
+    "openai>=1.82.0",
+    "python-dotenv>=1.1.0",
+]
