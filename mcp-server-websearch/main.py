@@ -29,7 +29,7 @@ def web_search(query: str) -> str:
     client = OpenAI(api_key=OPENAI_API_KEY)
     
     response = client.responses.create(
-        model="gpt-3.5-turbo",
+        model="gpt-4.1",
         tools=[{"type": "web_search_preview"}],
         input=query
     )
